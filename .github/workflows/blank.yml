@@ -1,0 +1,8 @@
+git pull
+npm install
+npx cap add ios     # For iOS
+npx cap add android # For Android
+npm run build
+npx cap sync
+npx cap run ios     # Requires Mac + Xcode
+npx cap run android # Requires Android Studio
